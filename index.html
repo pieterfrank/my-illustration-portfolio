@@ -31,11 +31,16 @@
             text-align: center;
         }
         nav a {
+            font-family: 'Rubik Mono One', sans-serif; /* Font applied to menu items */
+            font-size: 18px; /* Adjust size if needed */
             color: white;
             text-decoration: none;
             margin: 0 15px;
             font-weight: bold;
-            font-family: 'Helvetica', sans-serif;
+            letter-spacing: 1px; /* Adds letter spacing */
+        }
+        nav a:hover {
+            text-decoration: underline; /* Underline on hover */
         }
         /* Hero Section */
         .hero {
@@ -57,7 +62,6 @@
         .hero p {
             font-size: 20px;
             margin: 10px 0;
-            font-family: 'Helvetica', sans-serif;
         }
         .hero a {
             background-color: #ff6f61;
@@ -65,14 +69,9 @@
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
-            font-family: 'Helvetica', sans-serif;
         }
         .hero a:hover {
             background-color: #ff5a4c;
-        }
-        /* Logo Styling */
-        .hero .logo {
-            margin-bottom: 20px;
         }
         /* Featured Work */
         .featured {
@@ -81,7 +80,7 @@
         }
         .featured h2 {
             margin-bottom: 30px;
-            font-size: 32px;
+            font-size: 36px;
         }
         .gallery {
             display: flex;
@@ -111,7 +110,6 @@
             margin: 0 auto;
             font-size: 18px;
             line-height: 1.6;
-            font-family: 'Helvetica', sans-serif;
         }
         /* Footer */
         footer {
@@ -124,7 +122,6 @@
             color: white;
             margin: 0 10px;
             text-decoration: none;
-            font-family: 'Helvetica', sans-serif;
         }
         footer a:hover {
             text-decoration: underline;
@@ -143,9 +140,8 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <!-- Logo added here -->
         <div class="logo">
-            <img src="logo.svg" alt="Peter Perch Logo" width="150" height="150"> <!-- Adjust size as needed -->
+            <img src="logo.svg" alt="Peter Perch Logo" width="150" height="150">
         </div>
         <h1>Peter Perch</h1>
         <p>Illustrator of fishy things</p>
