@@ -57,29 +57,21 @@
         }
 
         .back-button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #ff6f61;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
             position: absolute;
             top: 20px;
             left: 20px;
+            border: none;
+            background: none;
+            cursor: pointer;
         }
 
-        .back-button:hover {
-            background-color: #ff5a4c;
-        }
-
-        .back-svg {
-            width: 40px;
+        .back-button img {
+            width: 40px; /* Adjust the size of the back button */
             height: 40px;
-            fill: #ff6f61; /* Color of the back button */
         }
 
-        .back-svg:hover {
-            fill: #ff5a4c;
+        .back-button img:hover {
+            opacity: 0.8;
         }
     </style>
 </head>
@@ -88,7 +80,7 @@
     <div class="container">
         <!-- SVG Back Button -->
         <a href="index.html" class="back-button">
-            <img src="backbutton.svg" alt="Back" class="back-svg">
+            <img src="backbutton.svg" alt="Back Button">
         </a>
 
         <h1>Stanley</h1>
@@ -102,8 +94,6 @@
             <img src="illustration1_5.jpg" alt="Illustration 1 Image 5">
             <img src="illustration1_6.jpg" alt="Illustration 1 Image 6">
         </div>
-
-        <a href="index.html" class="back-button">← Back</a>
     </div>
 
 </body>
